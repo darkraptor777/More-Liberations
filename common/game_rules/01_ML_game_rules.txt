@@ -1,0 +1,185 @@
+#
+# List of options showing in the Game Rules screen
+#
+# format is:
+# rule_token = {
+#	name = "TEXT_KEY_FOR_NAME"
+#	required_dlc = "Name of the Required DLC"
+#	desc = "TEXT_KEY_FOR_LONG_DESC"
+#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
+#	icon = gfx_option_token							# Optional icon
+#	option = {										# Unless other specified, the first option is the default option
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		allow_achievements = no						# Achievements cannot be earned if one or more game rules are set to an option that has this property set to no.
+#													# If not specified, this is set to yes for default options and no for all other options.
+#	}
+#	default = {										# Specify an option with the "default" token to override the behavior of treating the first option as the default.
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		...
+#	}
+# }
+
+
+ ##   ##  #   # ###      ## ### ### #  # ###  
+#    #  # ## ## #       #   #    #  #  # #  # 
+# ## #### # # # ##       #  ##   #  #  # ###  
+#  # #  # #   # #         # #    #  #  # #    
+ ##  #  # #   # ###     ##  ###  #   ##  #    
+
+pol_fragmentation_status = {
+	name = "POL_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = POL_FRAGMENTED
+		text = "RULE_OPTION_POL_FRAGMENTED"
+		desc = "RULE_OPTION_POL_FRAGMENTED_DESC"
+	}
+}
+
+ger_fragmentation_status = {
+	name = "GER_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = GER_FRAGMENTED
+		text = "RULE_OPTION_GER_FRAGMENTED"
+		desc = "RULE_OPTION_GER_FRAGMENTED_DESC"
+	}
+}
+fra_fragmentation_status = {
+	name = "FRA_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = FRA_FRAGMENTED
+		text = "RULE_OPTION_FRA_FRAGMENTED"
+		desc = "RULE_OPTION_FRA_FRAGMENTED_DESC"
+	}
+}
+ita_fragmentation_status = {
+	name = "ITA_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = ITA_FRAGMENTED
+		text = "RULE_OPTION_ITA_FRAGMENTED"
+		desc = "RULE_OPTION_ITA_FRAGMENTED_DESC"
+	}
+}
+spr_fragmentation_status = {
+	name = "SPR_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = SPR_FRAGMENTED
+		text = "RULE_OPTION_SPR_FRAGMENTED"
+		desc = "RULE_OPTION_SPR_FRAGMENTED_DESC"
+	}
+}
+rom_fragmentation_status = {
+	name = "ROM_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = ROM_FRAGMENTED
+		text = "RULE_OPTION_ROM_FRAGMENTED"
+		desc = "RULE_OPTION_ROM_FRAGMENTED_DESC"
+	}
+}
+den_fragmentation_status = {
+	name = "DEN_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = DEN_FRAGMENTED
+		text = "RULE_OPTION_DEN_FRAGMENTED"
+		desc = "RULE_OPTION_DEN_FRAGMENTED_DESC"
+	}
+}
+usa_fragmentation_status = {
+	name = "USA_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = USA_FRAGMENTED
+		text = "RULE_OPTION_USA_FRAGMENTED"
+		desc = "RULE_OPTION_USA_FRAGMENTED_DESC"
+	}
+}
+bra_fragmentation_status = {
+	name = "BRA_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = BRA_FRAGMENTED
+		text = "RULE_OPTION_BRA_FRAGMENTED"
+		desc = "RULE_OPTION_BRA_FRAGMENTED_DESC"
+	}
+}
+chi_fragmentation_status = {
+	name = "CHI_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = CHI_FRAGMENTED
+		text = "RULE_OPTION_CHI_FRAGMENTED"
+		desc = "RULE_OPTION_CHI_FRAGMENTED_DESC"
+	}
+}
+gre_fragmentation_status = {
+	name = "GRE_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = GRE_FRAGMENTED
+		text = "RULE_OPTION_GRE_FRAGMENTED"
+		desc = "RULE_OPTION_GRE_FRAGMENTED_DESC"
+	}
+}

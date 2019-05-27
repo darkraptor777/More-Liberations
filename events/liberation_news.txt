@@ -1,0 +1,32 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = liberation_news
+
+#Gibraltar Garunteed
+news_event = {
+	id = liberation_news.1
+	title = liberation_news.1.t
+	desc = liberation_news.1.d
+	picture = GFX_news_event_romania_poland_visit
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = liberation_news.1.a
+
+	}
+	option = {
+		name = liberation_news.1.b
+		trigger = { 
+			OR = {
+				TAG = ENG
+				TAG = SPR
+			}
+		}
+	}
+
+}

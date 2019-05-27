@@ -1,0 +1,33 @@
+#North America
+NEG = "countries/New England.txt"
+TEX = "countries/Texas.txt"
+CCF = "countries/Central States.txt"
+ASK = "countries/Alaska.txt"
+CAL = "countries/California.txt"
+CSC = "countries/Cascadia.txt"
+#USSR
+SIB = "countries/Siberia.txt"
+SAK = "countries/Sakhalin.txt"
+KHA = "countries/Khabarovsk.txt"
+KUB = "countries/Kuban.txt"
+BAR = "countries/Barents.txt"
+MNC = "countries/Minchu.txt"
+OVA = "countries/Ovask.txt"
+NOV = "countries/Novgosk.txt"
+#Europe
+BAV = "countries/Bavaria.txt"
+SAX = "countries/Saxony.txt"
+FRE = "countries/Franco Roman Empire.txt"
+SIC = "countries/Sicil Isles.txt"
+GIB = "countries/Gibraltar.txt"
+SWS = "countries/Swiasia.txt"
+BRI = "countries/Brittany.txt"
+PAP = "countries/Papal States.txt"
+#South America
+AMA = "countries/Amazonia.txt"
+#Asia
+SCH = "countries/Sichuan.txt"
+MDS = "countries/Madras.txt"
+MYS = "countries/Mysore.txt"
+#Africa
+ASW = "countries/Aswan.txt"

@@ -1,0 +1,107 @@
+unnamed Update
+-Added Papal States
+
+Overhaul Update
+-Moved from a event based system to the new game rule system
+-Added Poland fragmentation game rule
+-Added Germany fragmentation game rule
+-Added France fragmentation game rule
+-Added Italy fragmentation game rule
+-Added Romania fragmentation game rule
+-Added Spain fragmentation game rule
+-Added Denmark fragmentation game rule
+-Added Greece fragmentation game rule
+-Added USA fragmentation game rule
+-Added Brazil fragmentation game rule
+-Added China fragmentation game rule
+-Gave Sichuan the Chinese warlord focus tree
+-Moved Country Tags to new file to further improve compatibility
+-Moved Country colours to new file o further improve compatibility
+-Gave Sicil Union of Isles Dodecanese
+-Changed Madras' tag to MDS (MAD tag has been taken by madagascar)
+-Fixed minor technology errors
+-Removed Algeria
+-Removed Bangladesh
+-Removed Bosnia
+-Removed Burma
+-Removed Central African Union
+-Removed Kazakhstan
+-Removed Macedonia
+-Removed Moldova
+-Removed Morocco
+-Removed Scotland
+-Removed Senegal
+-Removed Slovenia
+-Removed Somalia
+-Removed Sudan
+-Removed Tajikistan
+-Removed Turkmenistan
+-Removed Uzbekistan
+-Removed Wales
+
+Kingdoms Update
+-Updated the colors of burma, bangladesh, moldova and new england
+-Moved localisation to seperate files to help with compatability with other mods & future game updates
+-Moved Moldova from Europe to Russia for the liberation events
+-Added Lusatia
+-Added Brittany
+-Added Aswan
+-Added Madras
+
+Global Update
+-Added Burma
+-Added Bangladesh
+-Added Moldova
+-Removed giving Ethiopia land (still gets claim)
+-Gibraltar no longer gets Valencia or Murcia (doesn't get claim either)
+-Reworked Events so you can Balkanize continents seperately
+
+American Update
+-Compatability for 1.5 added
+-Added Californian Republic
+-Added Cascadia
+-Added Alaska
+-Added The Central Confederacy
+-Added The Star Confederacy
+-Added New England
+
+Mackenzie Update
+-Mackenzie King no longer rules half the world
+-Instead random leaders are generated (the same thing that the regular game does for countries like Botswana)
+-The Franco-Roman Empire now remilitarises the Rhineland
+-Sichuan now behaves like the other Chinese states when Japan declares war
+-Fixed a typo
+
+1.01 Update
+-Gave some countries factories if you choose to release them at the start (makes them somewhat playable)
+
+1.0 Update
+-Reworked how claims etc. are added. Should make the mod even more compatable.
+-Added the option to release all nations at the start of the game
+-Changed Amazonia's names to be more appropriate
+-Added party names for Algeria
+-Added party leaders for Algeria
+
+
+
+CHANGELOG
+-Updated to 1.4.2
+-communist and democratic names for Minchu updated
+-fixed bug with john murchie clones
+-fixed other minor bugs
+-updated some flags
+-Added Gibraltar
+-Added Central African Union
+-Added Franco Roman Empire
+-Added Algeria
+-Added Amazonia
+-Added Senegal
+-Added Sichuan
+-Added Sicil Isles
+-Added Swiasia
+-Added Slovenia
+
+
+Copypaste list
+
+Countries added include; Amazonia, Barents, Bavaria, Franco-Roman Empire, Gibraltar, Khabarovsk, Kuban, Minchu, Novgosk, Ovask, Sakhalin, Sichuan, Siberia, Sicil Isles, Swiasia

@@ -1,0 +1,20 @@
+﻿add_namespace = franco_roman
+
+
+
+country_event = {
+	id = franco_roman.0
+	title = franco_roman.0.t
+	desc = franco_roman.0.d
+	picture = GFX_news_events_generic_sign_treaty2
+	fire_only_once = yes
+	trigger = {
+		tag=FRE
+	}
+	option = {
+		ai_chance = { factor = 100 }
+		name = franco_roman.0.a
+		51 = {set_demilitarized_zone=no }
+		42 = {set_demilitarized_zone=no }
+	}
+}
