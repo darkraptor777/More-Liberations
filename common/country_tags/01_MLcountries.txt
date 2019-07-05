@@ -23,11 +23,16 @@ GIB = "countries/Gibraltar.txt"
 SWS = "countries/Swiasia.txt"
 BRI = "countries/Brittany.txt"
 PAP = "countries/Papal States.txt"
+CAT = "countries/Catalan.txt"
 #South America
 AMA = "countries/Amazonia.txt"
+PAT = "countries/Patagonia.txt"
+#Centro-America
+YUC = "countries/Yucatan.txt"
 #Asia
 SCH = "countries/Sichuan.txt"
 MDS = "countries/Madras.txt"
 MYS = "countries/Mysore.txt"
+ASS = "countries/Assam.txt"
 #Africa
 ASW = "countries/Aswan.txt"

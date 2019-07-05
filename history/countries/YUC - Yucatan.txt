@@ -1,8 +1,8 @@
-﻿capital = 456
+﻿capital = 512
 
-set_research_slots = 3
+set_research_slots = 2
 
-oob = "ASW_1936"
+oob = "PAT_1936"
 
 set_technology = {
 	infantry_weapons = 1
@@ -18,7 +18,7 @@ set_technology = {
 	transport = 1
 }
 
-set_convoys = 50
+set_convoys = 5
 
 
 1939.1.1 = {
@@ -63,7 +63,7 @@ set_convoys = 50
 		dispersed_industry2 = 1
 	}
 }
-	set_politics = {
+	set_politics = {	
 		ruling_party = neutrality
 		last_election = "1935.6.9"
 		election_frequency = 6
@@ -71,12 +71,27 @@ set_convoys = 50
 	}
 	
 set_popularities = {
-	democratic = 30
+	democratic = 22
 	fascism = 9
-	communism = 16
-	neutrality = 45
+	communism = 9
+	neutrality = 60
 }
 }
+
+1939.1.1 = {
+	set_politics = {	
+		ruling_party = neutrality
+		last_election = "1935.6.9"
+		election_frequency = 6
+		elections_allowed = yes # none after offset 1
+	}
+	
+	set_popularities = {
+		democratic = 18
+		fascism = 13
+		communism = 12
+		neutrality = 57
+	}
 }
 
 

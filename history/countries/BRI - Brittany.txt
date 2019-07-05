@@ -63,31 +63,19 @@ set_convoys = 50
 		dispersed_industry2 = 1
 	}
 }
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 30
-		}
-
-		fascism = {
-			popularity = 9
-		}
-		
-		communism = {
-			popularity = 26
-		}
-		neutrality = {
-			popularity = 45
-		}
-		}
-		
+	set_politics = {		
 		ruling_party = neutrality
 		last_election = "1935.6.9"
 		election_frequency = 6
 		elections_allowed = yes # none after offset 1
 	}
+	
+set_popularities = {
+	democratic = 20
+	fascism = 9
+	communism =26 
+	neutrality =45
 }
-}
+
 
 

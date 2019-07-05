@@ -65,53 +65,34 @@ set_convoys = 5
 }
 	set_politics = {
 
-		parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 40
-		}
-		neutrality = {
-			popularity = 20
-		}
-		}
-		
 		ruling_party = communism
 		last_election = "1935.6.9"
 		election_frequency = 6
 		elections_allowed = no # none after offset 1
 	}
+	
+set_popularities = {
+	democratic =  20
+	fascism = 20
+	communism = 40
+	neutrality = 20
+}
+
 }
 
 1939.1.1 = {
 	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 40
-		}
-		neutrality = {
-			popularity = 20
-		}
-		}
-		
+	
 		ruling_party = communism
 		last_election = "1935.6.9"
 		election_frequency = 6
 		elections_allowed = no # none after offset 1
 	}
+	
+set_popularities = {
+	democratic = 20
+	fascism = 20
+	communism = 50
+	neutrality = 10
+}
 }

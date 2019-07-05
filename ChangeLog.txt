@@ -1,5 +1,14 @@
-unnamed Update
+Update
+-Added Yucatan
+-Added Patagonia
+-Added Assam
+-Added Catalan
+-Gave Bangladesh west Bengal
+-Adjusted Gibraltar's Colour
+
+Holy Update
 -Added Papal States
+-Updated for 1.7.0
 
 Overhaul Update
 -Moved from a event based system to the new game rule system
@@ -102,6 +111,20 @@ CHANGELOG
 -Added Slovenia
 
 
-Copypaste list
+Desc
 
-Countries added include; Amazonia, Barents, Bavaria, Franco-Roman Empire, Gibraltar, Khabarovsk, Kuban, Minchu, Novgosk, Ovask, Sakhalin, Sichuan, Siberia, Sicil Isles, Swiasia
+Holy Update
+
+Updated to 1.7.0 and added the Papal States.
+
+Overhaul Update
+
+More Liberations is finally up to date again!
+We've moved over from releasing stuff through events to the new game rules system Paradox added.
+Sadly a bunch of countries had to be removed since they are now in the base game, but this is for the better. 
+
+On a personal note I would like to apologise for the long delay in getting this update out. Thanks for sticking out the long wait. However with exam season over I now have more time to work on this! So I encourage you to post you're suggestions in the thread, there are already some good suggestions in there that I'm working on (maybe even a few are formable nations). 
+
+One thing I will add in relations to suggestions is that there are a few suggestions that I will not be adding. This is because these nations exist in areas that HoI4's map groups into larger states and for the sake of compatibility I am unwilling to modify the games state or region groupings (sorry Liechtenstein). The aim of this mod is not to be historically accurate, but rather to provide options for the player to carve up regions to improve gameplay.
+
+Countries added in this mod include; Amazonia, Barents, Bavaria, Franco-Roman Empire, Gibraltar, Khabarovsk, Kuban, Minchu, Novgosk, Ovask, Papal States, Sakhalin, Sichuan, Siberia, Sicil Isles, Swiasia

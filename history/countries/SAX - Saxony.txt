@@ -63,30 +63,18 @@ set_convoys = 50
 	}
 }
 	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 3
-		}
-
-		fascism = {
-			popularity = 19
-		}
-		
-		communism = {
-			popularity = 8
-		}
-		neutrality = {
-			popularity = 70
-		}
-		}
-		
 		ruling_party = neutrality
 		last_election = "1935.6.9"
 		election_frequency = 6
 		elections_allowed = yes # none after offset 1
 	}
+	
+set_popularities = {
+	democratic = 3
+	fascism = 19
+	communism = 8
+	neutrality =70
 }
-}
+
 
 
