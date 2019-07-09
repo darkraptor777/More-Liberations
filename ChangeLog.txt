@@ -1,3 +1,8 @@
+Bugfix Update
+-Moved Game Options to new "More Liberations" category
+-Updated mod to not rely on game rules added as part of the "Man the Guns" dlc
+-Gave Pakistan Kashmir when Raj is fragmented
+
 Summer Update
 -Added Yucatan
 -Added Patagonia
@@ -113,9 +118,9 @@ CHANGELOG
 
 Desc
 
-Holy Update
+Summer Update
 
-Updated to 1.7.0 and added the Papal States.
+Added Assam, Catalan, Patagonia, and Yucatan.
 
 Overhaul Update
 
@@ -127,4 +132,4 @@ On a personal note I would like to apologise for the long delay in getting this 
 
 One thing I will add in relations to suggestions is that there are a few suggestions that I will not be adding. This is because these nations exist in areas that HoI4's map groups into larger states and for the sake of compatibility I am unwilling to modify the games state or region groupings (sorry Liechtenstein). The aim of this mod is not to be historically accurate, but rather to provide options for the player to carve up regions to improve gameplay.
 
-Countries added in this mod include; Amazonia, Barents, Bavaria, Franco-Roman Empire, Gibraltar, Khabarovsk, Kuban, Minchu, Novgosk, Ovask, Papal States, Sakhalin, Sichuan, Siberia, Sicil Isles, Swiasia
+Countries added in this mod include; Amazonia, Assam, Barents, Bavaria, Catalan, Franco-Roman Empire, Gibraltar, Khabarovsk, Kuban, Minchu, Novgosk, Ovask, Papal States, Patagonia, Sakhalin, Sichuan, Siberia, Sicil Isles, Swiasia, Yucatan.

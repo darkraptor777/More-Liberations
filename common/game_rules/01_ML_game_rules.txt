@@ -28,9 +28,113 @@
 #  # #  # #   # #         # #    #  #  # #    
  ##  #  # #   # ###     ##  ###  #   ##  #    
 
+americas_colonization_status_lib = {
+	name = "AMERICAS_COLONIZATION_STATUS"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_COLONIZATION_DESC"
+	}
+	option = {
+		name = AMERICAS_DECOLONIZED_LIB
+		text = "RULE_OPTION_AMERICAS_DECOLONIZED"
+		desc = "RULE_OPTION_AMERICAS_DECOLONIZED_DESC"
+	}
+}
+africa_colonization_status_lib = {
+	name = "AFRICA_COLONIZATION_STATUS"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_COLONIZATION_DESC"
+	}
+	option = {
+		name = AFRICA_DECOLONIZED_LIB
+		text = "RULE_OPTION_AFRICA_DECOLONIZED"
+		desc = "RULE_OPTION_AFRICA_DECOLONIZED_DESC"
+	}
+}
+asia_colonization_status_lib = {
+	name = "ASIA_COLONIZATION_STATUS"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_COLONIZATION_DESC"
+	}
+	option = {
+		name = ASIA_DECOLONIZED_LIB
+		text = "RULE_OPTION_ASIA_DECOLONIZED"
+		desc = "RULE_OPTION_ASIA_DECOLONIZED_DESC"
+	}
+}
+eng_fragmentation_status_lib = {
+	name = "ENG_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = ENG_FRAGMENTED_LIB
+		text = "RULE_OPTION_ENG_FRAGMENTED"
+		desc = "RULE_OPTION_ENG_FRAGMENTED_DESC"
+	}
+}
+yug_fragmentation_status_lib = {
+	name = "YUG_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = YUG_FRAGMENTED_LIB
+		text = "RULE_OPTION_YUG_FRAGMENTED"
+		desc = "RULE_OPTION_YUG_FRAGMENTED_DESC"
+	}
+}
+sov_fragmentation_status_lib = {
+	name = "SOV_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = SOV_FRAGMENTED_LIB
+		text = "RULE_OPTION_SOV_FRAGMENTED"
+		desc = "RULE_OPTION_SOV_FRAGMENTED_DESC"
+	}
+}
+raj_fragmentation_status_lib = {
+	name = "RAJ_FRAGMENTATION_STATUS"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = RAJ_FRAGMENTED_LIB
+		text = "RULE_OPTION_RAJ_FRAGMENTED"
+		desc = "RULE_OPTION_RAJ_FRAGMENTED_DESC"
+	}
+}
+ 
+ 
+ 
+ 
+ 
+ 
 pol_fragmentation_status = {
 	name = "POL_FRAGMENTATION_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
@@ -45,7 +149,7 @@ pol_fragmentation_status = {
 
 ger_fragmentation_status = {
 	name = "GER_FRAGMENTATION_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
@@ -59,7 +163,7 @@ ger_fragmentation_status = {
 }
 fra_fragmentation_status = {
 	name = "FRA_FRAGMENTATION_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
@@ -73,7 +177,7 @@ fra_fragmentation_status = {
 }
 ita_fragmentation_status = {
 	name = "ITA_FRAGMENTATION_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
@@ -87,7 +191,7 @@ ita_fragmentation_status = {
 }
 spr_fragmentation_status = {
 	name = "SPR_FRAGMENTATION_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
@@ -101,7 +205,7 @@ spr_fragmentation_status = {
 }
 rom_fragmentation_status = {
 	name = "ROM_FRAGMENTATION_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
@@ -115,7 +219,7 @@ rom_fragmentation_status = {
 }
 den_fragmentation_status = {
 	name = "DEN_FRAGMENTATION_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
@@ -129,7 +233,7 @@ den_fragmentation_status = {
 }
 usa_fragmentation_status = {
 	name = "USA_FRAGMENTATION_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
@@ -143,7 +247,7 @@ usa_fragmentation_status = {
 }
 bra_fragmentation_status = {
 	name = "BRA_FRAGMENTATION_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
@@ -157,7 +261,7 @@ bra_fragmentation_status = {
 }
 chi_fragmentation_status = {
 	name = "CHI_FRAGMENTATION_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
@@ -171,7 +275,7 @@ chi_fragmentation_status = {
 }
 gre_fragmentation_status = {
 	name = "GRE_FRAGMENTATION_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
+	group = "RULE_GROUP_MORE_LIBERATIONS"
 	default = {
 		name = DEFAULT
 		text = "RULE_OPTION_DEFAULT"
